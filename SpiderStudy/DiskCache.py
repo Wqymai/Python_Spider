@@ -14,23 +14,26 @@ except ImportError:
 
 
 class DiskCache:
-    def __init__(self, cache_dir='cache', expires=timedelta(days=30), compress=True):
+    def __init__(self, cache_dir='Test', expires=timedelta(days=30), compress=True):
         self.cache_dir = cache_dir
         self.expires = expires
         self.compress = compress
-
-
     def url_to_path(self, url):
         components = urlparse.urlsplit(url)
         path = components.path
         if not path:
+            print 'not path', path
             path = '/index.html'
         elif path.endswith('/'):
+            print 'endswith /', path
             path += 'index.html'
         filename = components.netloc+path+components.query
-        filename = re.sub('[^/0-9a-zA-Z\-.,;_ ]', '_', filename)
+        print filename
+        filename = re.sub('[^/0-9a-zA-Z\-.,;_ ]', '_', filename)#替换除 /0-9a-zA-Z\-.,;_ 以外的字符
+        print filename
         # restrict maximum number of characters
         filename = '/'.join(segment[:255] for segment in filename.split('/'))
+        print  filename
         return os.path.join(self.cache_dir, filename)
 
 
@@ -58,6 +61,7 @@ class DiskCache:
 
     def __setitem__(self, url, result):
         path = self.url_to_path(url)
+        print path
         folder = os.path.dirname(path)
         if not os.path.exists(folder):
             os.makedirs(folder)
@@ -76,4 +80,8 @@ class DiskCache:
             pass
 
 if __name__ == '__main__':
-        link_crawler('http://example.webscraping.com/', '/(index|view)',max_depth=1, cache=DiskCache())
+        # link_crawler('http://example.webscraping.com/', '/(index|view)',max_depth=1, cache=DiskCache())
+        cache= DiskCache()
+        # url='http://example.webscraping.com/view/Armenia-12'
+        # cache[url]='初始页'
+        cache.clear()
