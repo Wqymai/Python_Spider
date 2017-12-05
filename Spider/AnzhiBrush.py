@@ -17,7 +17,7 @@ def saveLog(str):
         obj = json.dumps(str)
     else:
         obj = str
-    with open('/Users/wuqiyan/Documents/shell/anzhi-normal-'+time.strftime('%Y-%m-%d',time.localtime(time.time()))+'.txt', 'a') as f:
+    with open('/Users/wuqiyan/Documents/shell/log/anzhi-normal-'+time.strftime('%Y-%m-%d',time.localtime(time.time()))+'.txt', 'a') as f:
         f.write(obj+'\n')
 
 def getRandomUA():
@@ -71,7 +71,7 @@ def downloadAnzhi(proxies):
 year = datetime.datetime.now().year
 month = datetime.datetime.now().month
 day = datetime.datetime.now().day
-end_datetime = datetime.datetime(year, month, day, 21, 30, 0)
+end_datetime = datetime.datetime(year, month, day, 18, 30, 0)
 ipFile = open('/Users/wuqiyan/Documents/shell/xiciIP.txt', 'r')
 listIp = []
 for line in ipFile.readlines():

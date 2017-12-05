@@ -5,6 +5,7 @@ import requests
 import time
 from fake_useragent import UserAgent
 from lxml import etree
+import json
 
 
 uas = []
@@ -12,8 +13,13 @@ ua = UserAgent()
 COUNT = 0
 
 def saveLog(str):
-    with open('/Users/wuqiyan/Documents/shell/huawei-'+time.strftime('%Y-%m-%d', time.localtime(time.time()))+'.txt', 'a') as f:
-        f.write(str+'\n')
+    if isinstance(str, dict):
+        obj = json.dumps(str)
+    else:
+        obj = str
+    with open('/Users/wuqiyan/Documents/shell/log/huawei-' + time.strftime('%Y-%m-%d', time.localtime(
+            time.time())) + '.txt', 'a') as f:
+        f.write(obj + '\n')
 
 def getRandomUA():
     exist = True
@@ -85,7 +91,7 @@ for line in ipFile.readlines():
     listIp.append(line)
 ipFile.close()
 for _ in listIp:
-    print len(listIp)
+    saveLog(str(len(listIp)))
     if datetime.datetime.now() < end_datetime:
         saveLog('time is ok ...')
         proxies = {}

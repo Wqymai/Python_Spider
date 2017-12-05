@@ -1,11 +1,15 @@
 from lxml import etree
 import requests
+import os
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36'}
-savefile = open('/Users/wuqiyan/Documents/shell/xiciIP.txt', 'w')
+path = '/Users/wuqiyan/Documents/shell/xiciIP.txt'
+if os.path.exists(path):
+        print 'file exist...'
+        os.remove(path)
+savefile = open(path, 'w')
 for page in range(1, 20):
         try:
                 url = 'http://www.xicidaili.com/nn/' + str(page)
-                print url
                 response = requests.get(url, headers=headers)
                 html = etree.HTML(response.text)
                 trs = html.xpath("//table[@id='ip_list']/tr")

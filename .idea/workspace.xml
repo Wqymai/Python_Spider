@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b40d0cae-9f7d-4637-b29d-32911d77a50d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/seleniumdriver/chromedriver" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConfigCreate.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spider/AnzhiBrush.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spider/BrushAmount.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spider/HuaweiBrush.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spider/XiciProxy.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spider/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spider/xpathTest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/html01.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/templates/temp01.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/test01.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fileTestScript.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logTest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phantomjstest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/seleniumtest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xiciIP.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Spider/iplist.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/selenium_test.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_requests.py" afterPath="$PROJECT_DIR$/testpython.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spider/AnzhiBrush.py" afterPath="$PROJECT_DIR$/Spider/AnzhiBrush.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spider/HuaweiBrush.py" afterPath="$PROJECT_DIR$/Spider/HuaweiBrush.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spider/XiciProxy.py" afterPath="$PROJECT_DIR$/Spider/XiciProxy.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ghostdriver.log" afterPath="$PROJECT_DIR$/ghostdriver.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seleniumtest.py" afterPath="$PROJECT_DIR$/seleniumtest.py" />
     </list>
     <ignored path="PyCharm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +27,8 @@
     <SUITE FILE_PATH="coverage/PyCharm$phantomjstest.coverage" NAME="phantomjstest Coverage Results" MODIFIED="1512112638517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PyCharm$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1500536026625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/PyCharm$xpathTest.coverage" NAME="xpathTest Coverage Results" MODIFIED="1511431186353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider" />
-    <SUITE FILE_PATH="coverage/PyCharm$HuaweiBrush.coverage" NAME="HuaweiBrush Coverage Results" MODIFIED="1512355079690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider" />
     <SUITE FILE_PATH="coverage/PyCharm$testpython.coverage" NAME="testpython Coverage Results" MODIFIED="1512359232032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyCharm$HuaweiBrush.coverage" NAME="HuaweiBrush Coverage Results" MODIFIED="1512437741472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider" />
     <SUITE FILE_PATH="coverage/PyCharm$BrushAmount.coverage" NAME="BrushAmount Coverage Results" MODIFIED="1512091253032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider" />
     <SUITE FILE_PATH="coverage/PyCharm$logTest.coverage" NAME="logTest Coverage Results" MODIFIED="1504665774807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PyCharm$AnzhiBrush.coverage" NAME="AnzhiBrush Coverage Results" MODIFIED="1512377500976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider" />
@@ -59,7 +46,7 @@
       <file leaf-file-name="BrushAmount.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spider/BrushAmount.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
+            <state relative-caret-position="336">
               <caret line="20" column="103" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="103" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -69,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seleniumtest.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="seleniumtest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/seleniumtest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+            <state relative-caret-position="-240">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -84,8 +71,8 @@
       <file leaf-file-name="HuaweiBrush.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spider/HuaweiBrush.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            <state relative-caret-position="418">
+              <caret line="89" column="31" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -93,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnzhiBrush.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AnzhiBrush.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spider/AnzhiBrush.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-699">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="456">
+              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -108,22 +95,10 @@
       <file leaf-file-name="XiciProxy.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spider/XiciProxy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+            <state relative-caret-position="240">
+              <caret line="10" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigCreate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ConfigCreate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding>
-                <element signature="e#48#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,7 +117,7 @@
       <file leaf-file-name="testpython.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testpython.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="168">
               <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="25" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -205,10 +180,10 @@
         <option value="$PROJECT_DIR$/phantomjstest.py" />
         <option value="$PROJECT_DIR$/Spider/BrushAmount.py" />
         <option value="$PROJECT_DIR$/testpython.py" />
-        <option value="$PROJECT_DIR$/Spider/XiciProxy.py" />
+        <option value="$PROJECT_DIR$/seleniumtest.py" />
         <option value="$PROJECT_DIR$/Spider/HuaweiBrush.py" />
         <option value="$PROJECT_DIR$/Spider/AnzhiBrush.py" />
-        <option value="$PROJECT_DIR$/seleniumtest.py" />
+        <option value="$PROJECT_DIR$/Spider/XiciProxy.py" />
       </list>
     </option>
   </component>
@@ -219,8 +194,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1961" />
-    <option name="y" value="59" />
+    <option name="x" value="166" />
+    <option name="y" value="62" />
     <option name="width" value="1768" />
     <option name="height" value="1040" />
   </component>
@@ -249,6 +224,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -283,8 +260,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,7 +273,7 @@
       <recent name="$PROJECT_DIR$/seleniumdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.AnzhiBrush">
+  <component name="RunManager" selected="Python.HuaweiBrush">
     <configuration default="false" name="XiciProxy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -606,9 +581,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.AnzhiBrush" />
-        <item index="1" class="java.lang.String" itemvalue="Python.testpython" />
-        <item index="2" class="java.lang.String" itemvalue="Python.HuaweiBrush" />
+        <item index="0" class="java.lang.String" itemvalue="Python.HuaweiBrush" />
+        <item index="1" class="java.lang.String" itemvalue="Python.AnzhiBrush" />
+        <item index="2" class="java.lang.String" itemvalue="Python.testpython" />
         <item index="3" class="java.lang.String" itemvalue="Python.XiciProxy" />
         <item index="4" class="java.lang.String" itemvalue="Python.phantomjstest" />
       </list>
@@ -640,10 +615,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1961" y="59" width="1768" height="1040" extended-state="0" />
+    <frame x="166" y="62" width="1768" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19640788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19872537" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32878152" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -693,6 +668,91 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Spider/BrushAmount.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="20" column="103" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="103" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#1028#1044#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/HuaweiBrush.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/AnzhiBrush.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/XiciProxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileTestScript.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testpython.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2017-12-04.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/BrushAmount.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding>
@@ -712,14 +772,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/iplist.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/iplist.txt" />
     <entry file="file://$PROJECT_DIR$/Spider/XiciProxy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -734,7 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10776">
           <caret line="449" column="14" selection-start-line="449" selection-start-column="0" selection-end-line="449" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -749,14 +801,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/iplist.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/iplist.txt" />
     <entry file="file://$PROJECT_DIR$/Spider/XiciProxy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -809,21 +854,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/iplist.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/iplist.txt" />
     <entry file="file://$PROJECT_DIR$/Spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-244">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1470984100000" expanded="true" signature="1474:1540" ph="insert into QSBK... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -831,7 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -839,7 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3288">
           <caret line="137" column="13" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -847,9 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -857,7 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4821">
           <caret line="629" column="12" selection-start-line="629" selection-start-column="0" selection-end-line="629" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,7 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,7 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -881,9 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -891,9 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#48#59#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -915,7 +936,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Spider/BrushAmount.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="336">
           <caret line="20" column="103" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="103" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -934,7 +955,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testpython.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="168">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="25" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -942,40 +963,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/XiciProxy.py">
+    <entry file="file://$PROJECT_DIR$/ghostdriver.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-4248">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/HuaweiBrush.py">
+    <entry file="file://$PROJECT_DIR$/Spider/AnzhiBrush.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumtest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+        <state relative-caret-position="456">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/AnzhiBrush.py">
+    <entry file="file://$PROJECT_DIR$/Spider/HuaweiBrush.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-699">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="418">
+          <caret line="89" column="31" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/XiciProxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>

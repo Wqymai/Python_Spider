@@ -15,7 +15,7 @@ def saveLog(str):
         obj = json.dumps(str)
     else:
         obj = str
-    with open('/Users/wuqiyan/Documents/shell/anzhi-selenium-'+time.strftime('%Y-%m-%d',time.localtime(time.time()))+'.txt', 'a') as f:
+    with open('/Users/wuqiyan/Documents/shell/log/anzhi-selenium-'+time.strftime('%Y-%m-%d',time.localtime(time.time()))+'.txt', 'a') as f:
         f.write(obj+'\n')
 
 listIp =[]
