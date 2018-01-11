@@ -31,6 +31,7 @@ def getRandomUA():
             exist = False
         else:
             if useragent in uas:
+
                 saveLog('...in...no return,continue')
             else:
                 saveLog('...not in...return,over')
@@ -46,20 +47,20 @@ def brushHuaWei(proxies):
     try:
         headers = {'User-Agent': tempUa}
         time.sleep(random.randrange(3, 25, 1))
-        indexUrl ='http://app.hicloud.com/search/%25E5%25A5%25BD%25E8%25AF%2597'
+        indexUrl = 'http://app.hicloud.com/app/C100132421'
         r = requests.session()
-        response = r.get(indexUrl, headers=headers, proxies=proxies, timeout=3)
+        response = r.get(indexUrl, headers=headers,proxies=proxies, timeout=10)
         if response.status_code == 200:
            time.sleep(random.randrange(2, 10, 1))
            html = etree.HTML(response.text)
-           appbtn = html.xpath('//div[@class="app-btn"]/a/@onclick')
+           appbtn = html.xpath('//a[@class="mkapp-btn mab-download"]/@onclick')
            for url in appbtn:
-               if 'com.wqy.poems.1711171637' in url:
+               if 'com.wqy.poems' in url:
                    appUrl = str(url.split(',')[5]).replace('\'', '')
-                   saveLog(appUrl)
+                   saveLog('app download url:'+appUrl.strip())
                    try:
                        saveLog('start download...')
-                       out = r.get(appUrl, headers=headers, proxies=proxies, timeout=3)
+                       out = r.get(appUrl.strip(), headers=headers,proxies=proxies, timeout=10)
                        timespan = int(round(time.time() * 1000))
                        savepath = '/Users/wuqiyan/Documents/shell/apk/'+str(timespan)+'.apk'
                        if out.status_code == 200:
@@ -71,7 +72,6 @@ def brushHuaWei(proxies):
                             os.remove(savepath)
                        else:
                            saveLog('app url return error...')
-
                    except Exception, e:
                        saveLog(repr(e))
         else:
@@ -85,21 +85,35 @@ year = datetime.datetime.now().year
 month = datetime.datetime.now().month
 day = datetime.datetime.now().day
 end_datetime = datetime.datetime(year, month, day, 21, 30, 0)
-ipFile = open('/Users/wuqiyan/Documents/shell/xiciIP.txt', 'r')
-listIp = []
-for line in ipFile.readlines():
-    listIp.append(line)
-ipFile.close()
-for _ in listIp:
-    saveLog(str(len(listIp)))
-    if datetime.datetime.now() < end_datetime:
-        saveLog('time is ok ...')
-        proxies = {}
-        line = random.choice(listIp)
-        list = line.split('\t')
-        listIp.remove(line)
-        proxies[list[2].replace('\n', '')] = list[2].replace('\n', '') + '://' + list[0] + ':' + list[1]
-        brushHuaWei(proxies)
-    else:
-        saveLog('time out...')
-        break
+filePath = '/Users/wuqiyan/Documents/shell/xiciIP.txt'
+with open(filePath,'r') as f:
+    for line in f:
+        saveLog('current IP is >>> '+line)
+        if datetime.datetime.now() < end_datetime:
+            saveLog('time is ok ...')
+            proxies = {}
+            list = line.split('\t')
+            listIp.remove(line)
+            proxies[list[2].replace('\n', '')] = list[2].replace('\n', '') + '://' + list[0] + ':' + list[1]
+            brushHuaWei(proxies)
+        else:
+            saveLog('time out...')
+            break
+# ipFile = open('/Users/wuqiyan/Documents/shell/xiciIP.txt', 'r')
+# listIp = []
+# for line in ipFile.readlines():
+#     listIp.append(line)
+# ipFile.close()
+# for _ in listIp:
+#     saveLog(str(len(listIp)))
+#     if datetime.datetime.now() < end_datetime:
+#         saveLog('time is ok ...')
+#         proxies = {}
+#         line = random.choice(listIp)
+#         list = line.split('\t')
+#         listIp.remove(line)
+#         proxies[list[2].replace('\n', '')] = list[2].replace('\n', '') + '://' + list[0] + ':' + list[1]
+#         brushHuaWei(proxies)
+#     else:
+#         saveLog('time out...')
+#         break

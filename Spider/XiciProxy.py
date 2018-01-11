@@ -2,7 +2,8 @@ from lxml import etree
 import requests
 import os
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36'}
-path = '/Users/wuqiyan/Documents/shell/xiciIP.txt'
+# path = '/Users/wuqiyan/Documents/shell/xiciIP.txt'
+path = 'xiciIP.txt'
 if os.path.exists(path):
         print 'file exist...'
         os.remove(path)
